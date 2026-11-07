@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Linux en Android</string>
+    <string name="subtitle">Distro Linux con escritorio gráfico en Android (Termux + proot-distro + Termux:X11)</string>
+
+    <string name="status_termux">Termux: %1$s</string>
+    <string name="status_x11">Termux:X11: %1$s</string>
+    <string name="state_installed">instalado</string>
+    <string name="state_missing">NO instalado</string>
+
+    <string name="hint_permissions">Para que esta app pueda ejecutar comandos en Termux:\n1. Instala Termux y Termux:X11 desde F-Droid.\n2. En Termux ejecuta: echo \"allow-external-apps = true\" >> ~/.termux/termux.properties (y reinicia Termux).\n3. En Ajustes de Android > Apps > Linux en Android > Permisos, concede \"Run commands in Termux environment\".</string>
+
+    <string name="label_distro">Distro</string>
+    <string name="btn_refresh">Comprobar estado</string>
+    <string name="btn_install_distro">1. Instalar distro</string>
+    <string name="btn_install_gui">2. Instalar escritorio (XFCE)</string>
+    <string name="btn_launch">3. Abrir escritorio</string>
+    <string name="btn_open_termux">Abrir Termux</string>
+    <string name="btn_open_x11">Abrir Termux:X11</string>
+
+    <string name="label_log">Registro</string>
+
+    <string name="toast_need_termux">Instala Termux desde F-Droid primero</string>
+    <string name="toast_need_x11">Instala Termux:X11 desde F-Droid primero</string>
+    <string name="toast_command_not_sent">No se pudo enviar el comando a Termux. Revisa el permiso RUN_COMMAND y allow-external-apps (ver aviso arriba).</string>
+
+    <string name="log_listing">Listando distros instaladas…</string>
+    <string name="log_installing">Instalando imagen %1$s (puede tardar varios minutos)…</string>
+    <string name="log_install_gui">Instalando XFCE en %1$s…</string>
+    <string name="log_launch">Abriendo Termux:X11 y lanzando el escritorio de %1$s…</string>
+    <string name="log_result_ok">[%1$s] exit=%2$d</string>
+    <string name="log_result_err">[%1$s] error: %2$s</string>
+    <string name="installed_distros">Distros instaladas: %1$s</string>
+    <string name="none">ninguna</string>
+</resources>
